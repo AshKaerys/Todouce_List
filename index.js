@@ -30,7 +30,7 @@ function storage(){
 function getValues (){
     let storageContent = window.localStorage.todoList;
     if(!storageContent){
-        list.innerHTML = '<li> Cliquez sur un ToDo pour supprimer'
+        list.innerHTML = '<li> Click sur un ToDo pour valider & supprimer'
     }
     else{
         list.innerHTML= storageContent;
