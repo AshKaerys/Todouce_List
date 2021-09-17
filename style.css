@@ -56,6 +56,7 @@ body form input {
 }
 body form input::placeholder {
   color: black;
+  opacity: 0.5;
 }
 body form input:focus {
   border: 3px solid #FF00FF;
